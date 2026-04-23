@@ -1465,49 +1465,13 @@ section {
     text-align: center;
     transition: all 0.3s ease;
     box-shadow: 0 4px 6px rgba(15, 23, 42, 0.05);
-    position: relative;
-    overflow: hidden;
-}
-
-.education-card::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 3px;
-    background: var(--gradient-vibrant);
-}
-
-.education-card:nth-child(1) {
-    border-top-color: var(--accent-purple);
-}
-
-.education-card:nth-child(1)::before {
-    background: linear-gradient(90deg, var(--accent-purple), var(--secondary-color));
-}
-
-.education-card:nth-child(1):hover {
-    border-color: var(--accent-purple);
-    box-shadow: 0 16px 32px rgba(168, 85, 247, 0.15);
-}
-
-.education-card:nth-child(2) {
-    border-top-color: var(--accent-orange);
-}
-
-.education-card:nth-child(2)::before {
-    background: linear-gradient(90deg, var(--accent-orange), var(--accent-color));
-}
-
-.education-card:nth-child(2):hover {
-    border-color: var(--accent-orange);
-    box-shadow: 0 16px 32px rgba(255, 107, 53, 0.15);
 }
 
 .education-card:hover {
+    border-color: var(--primary-color);
     background: rgba(255, 255, 255, 1);
     transform: translateY(-8px);
+    box-shadow: 0 16px 32px rgba(0, 102, 255, 0.12);
 }
 
 .education-icon {
