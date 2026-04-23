@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MD Ashraf - Data Science Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+</head>
+<body>
+    <!-- Floating Background Animations -->
+    <div class="background-animations">
+        <!-- Data Points -->
+        <div class="float-element float-node" style="top: 10%; left: 5%; animation-delay: 0s;">
+            <span>◯</span>
+        </div>
+        <div class="float-element float-node" style="top: 25%; right: 8%; animation-delay: 2s;">
+            <span>◯</span>
+        </div>
+        <div class="float-element float-node" style="bottom: 30%; left: 10%; animation-delay: 4s;">
+            <span>◯</span>
+        </div>
+        
+        <!-- AI/ML Icons -->
+        <div class="float-element float-icon" style="top: 35%; right: 5%; animation-delay: 1s;">
+            <span>⚡</span>
+        </div>
+        <div class="float-element float-icon" style="bottom: 20%; right: 15%; animation-delay: 3s;">
+            <span>⚙</span>
+        </div>
+        <div class="float-element float-icon" style="top: 50%; left: 3%; animation-delay: 2.5s;">
+            <span>◆</span>
+        </div>
+        
+        <!-- Data Visualizations -->
+        <div class="float-element float-chart" style="bottom: 40%; left: 8%; animation-delay: 1.5s;">
+            <span>📊</span>
+        </div>
+        <div class="float-element float-chart" style="top: 60%; right: 10%; animation-delay: 3.5s;">
+            <span>📈</span>
+        </div>
+        
+        <!-- Neural Network Nodes -->
+        <div class="float-element float-neural" style="top: 15%; left: 20%; animation-delay: 0.5s;">
+            <span>🧠</span>
+        </div>
+        <div class="float-element float-neural" style="bottom: 15%; right: 20%; animation-delay: 2.5s;">
+            <span>🔗</span>
+        </div>
+        
+        <!-- Connecting Lines -->
+        <svg class="background-lines" viewBox="0 0 1920 1080" preserveAspectRatio="none">
+            <line x1="10%" y1="15%" x2="20%" y2="35%" class="data-line" style="animation-delay: 0s;"/>
+            <line x1="85%" y1="25%" x2="90%" y2="50%" class="data-line" style="animation-delay: 1s;"/>
+            <line x1="5%" y1="50%" x2="15%" y2="70%" class="data-line" style="animation-delay: 2s;"/>
+            <line x1="90%" y1="60%" x2="85%" y2="80%" class="data-line" style="animation-delay: 1.5s;"/>
+        </svg>
+    </div>
+    
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <div class="logo-icon-animated">
+                    <span class="icon-brain">🧠</span>
+                </div>
+                <div class="logo-text-group">
+                    <span class="logo-text">MD Ashraf</span>
+                    <span class="logo-subtitle">AI & Data Science</span>
+                </div>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active"><span class="nav-icon">🏠</span>Home</a></li>
+                <li><a href="#about" class="nav-link"><span class="nav-icon">👤</span>About</a></li>
+                <li><a href="#experience" class="nav-link"><span class="nav-icon">💼</span>Experience</a></li>
+                <li><a href="#projects" class="nav-link"><span class="nav-icon">🚀</span>Projects</a></li>
+                <li><a href="#publications" class="nav-link"><span class="nav-icon">📄</span>Publications</a></li>
+                <li><a href="#skills" class="nav-link"><span class="nav-icon">⚡</span>Skills</a></li>
+                <li><a href="#education" class="nav-link"><span class="nav-icon">🎓</span>Education</a></li>
+                <li><a href="#contact" class="nav-link"><span class="nav-icon">📞</span>Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <!-- Animated Neural Network Lines -->
+        <div class="navbar-bg-animation">
+            <svg class="neural-lines" viewBox="0 0 1920 100" preserveAspectRatio="none">
+                <line x1="5%" y1="20%" x2="15%" y2="80%" class="ai-line" />
+                <line x1="25%" y1="70%" x2="35%" y2="30%" class="ai-line" />
+                <line x1="50%" y1="50%" x2="60%" y2="50%" class="ai-line" />
+                <line x1="75%" y1="30%" x2="85%" y2="70%" class="ai-line" />
+                <line x1="90%" y1="80%" x2="95%" y2="20%" class="ai-line" />
+            </svg>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="animated-bg"></div>
+        <!-- Data Science Visualization Elements -->
+        <div class="data-points">
+            <div class="data-point" style="top: 10%; left: 10%;"></div>
+            <div class="data-point" style="top: 20%; right: 15%;"></div>
+            <div class="data-point" style="top: 60%; left: 20%;"></div>
+            <div class="data-point" style="top: 70%; right: 10%;"></div>
+            <div class="data-point" style="top: 40%; left: 50%;"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="title-word">Data</span>
+                    <span class="title-word">Science</span>
+                    <span class="title-word">Innovator</span>
+                </h1>
+                <p class="hero-subtitle">Transforming raw data into intelligent solutions through machine learning & advanced analytics</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-card">
+                    <div class="stat-number">5+</div>
+                    <div class="stat-label">ML Projects</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">2+</div>
+                    <div class="stat-label">Years Experience</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">1</div>
+                    <div class="stat-label">Publication</div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span class="mouse"></span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="section-container">
+            <div class="section-header">
+                <h2>About Me</h2>
+                <div class="header-line"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Passionate Data Science Engineer with expertise in building scalable machine learning pipelines, predictive models, and intelligent systems. Currently pursuing my Master's in Data Science with a focus on practical applications in medical data analysis, NLP, and generative AI.</p>
+                    <p>With hands-on experience in developing end-to-end data science solutions, I combine statistical rigor with engineering excellence to deliver actionable insights from complex datasets. Proficient in Python, SQL, AWS, and modern ML frameworks.</p>
+                    <div class="contact-info">
+                        <div class="info-item">
+                            <span class="info-icon">✉</span>
+                            <a href="mailto:mdashraf9723@gmail.com">mdashraf9723@gmail.com</a>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-icon">📱</span>
+                            <a href="tel:+919305905287">+91 9305905287</a>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-icon">🔗</span>
+                            <a href="https://github.com/ashraf9723" target="_blank">GitHub</a>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-icon">💼</span>
+                            <a href="https://www.linkedin.com/in/md-ashraf-59367319a/" target="_blank">LinkedIn</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-visual">
+                    <div class="profile-image-container">
+                        <img src="assets/PS-PHOTO.jpeg" alt="MD Ashraf - Data Science Professional" class="profile-image" />
+                        <div class="image-blur-bg"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="section-container">
+            <div class="section-header">
+                <h2>Professional Experience</h2>
+                <div class="header-line"></div>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">January 2026 - Present</div>
+                        <h3>Machine Learning Engineer Intern</h3>
+                        <p class="company">Ministry of Electronics and Information Technology & ILBS</p>
+                        <p class="location">New Delhi, India</p>
+                        <ul class="timeline-details">
+                            <li>Architecting ML models for Non-Communicable Disease (NCD) classification using advanced ensemble techniques</li>
+                            <li>Implementing XGBoost, Random Forest, and Gradient Boosting algorithms with hyperparameter optimization</li>
+                            <li>Developing 3D medical data visualization pipelines for clinical decision support systems</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">June 2024 - September 2024</div>
+                        <h3>Data Science Analytics Intern</h3>
+                        <p class="company">Zidio Development</p>
+                        <p class="location">Remote</p>
+                        <ul class="timeline-details">
+                            <li>Engineered unsupervised learning algorithms (K-means, DBSCAN) for advanced customer segmentation</li>
+                            <li>Designed comprehensive data pipelines with preprocessing, feature engineering, and outlier detection</li>
+                            <li>Created interactive BI dashboards using Matplotlib and Seaborn for stakeholder insights</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">July 20 - September 5, 2023</div>
+                        <h3>Summer Intern - Python Development</h3>
+                        <p class="company">Linux World Informatics Pvt. Ltd.</p>
+                        <p class="location">Jaipur, India</p>
+                        <ul class="timeline-details">
+                            <li>Designed and developed Python-based desktop and web applications using tkinter and Flask frameworks</li>
+                            <li>Implemented graphical user interfaces (GUI) with professional UI/UX design principles</li>
+                            <li>Developed database management modules using SQLite and MySQL for persistent data storage</li>
+                            <li>Collaborated with team members on code review and debugging Python applications in production environments</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Publications Section -->
+    <section id="publications" class="publications">
+        <div class="section-container">
+            <div class="section-header">
+                <h2>Research Publications</h2>
+                <div class="header-line"></div>
+            </div>
+            <div class="publications-grid">
+                <div class="publication-card">
+                    <div class="pub-icon">📄</div>
+                    <div class="pub-content">
+                        <h3>Forecasting Traffic Congestion On Indian Roads Using Graph Neural Networks & External Information</h3>
+                        <p class="pub-authors"><strong>Author:</strong> MD Ashraf</p>
+                        <p class="pub-conference"><strong>Conference:</strong> IC2E3 2026</p>
+                        <p class="pub-affiliation"><strong>Affiliation:</strong> NIT, Uttarakhand</p>
+                        <p class="pub-date"><strong>Status:</strong> Accepted</p>
+                        <p class="pub-description">
+                            Peer-reviewed research paper presenting a novel Graph Neural Network (GNN) architecture for spatio-temporal traffic prediction. The model leverages external contextual information (weather, events, holidays) to achieve significant improvements in forecasting accuracy. Demonstrates RMSE reduction of 18-25% compared to baseline methods.
+                        </p>
+                        <div class="pub-tags">
+                            <span class="pub-tag">Graph Neural Networks</span>
+                            <span class="pub-tag">Spatio-Temporal Forecasting</span>
+                            <span class="pub-tag">Deep Learning</span>
+                            <span class="pub-tag">Traffic Prediction</span>
+                            <span class="pub-tag">Peer-Reviewed</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="section-container">
+            <div class="section-header">
+                <h2>Featured Projects</h2>
+                <div class="header-line"></div>
+            </div>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-icon">🤖</div>
+                        <div class="project-overlay"></div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Financial Assistance Chatbot Using LLM</h3>
+                        <p class="project-date">April 2025 | AIT, Pune</p>
+                        <p class="project-description">
+                            Developed a production-ready local RAG system leveraging dolphin-2.6-mistral-7B-GGUF for autonomous financial query resolution. Implemented semantic search with FAISS vector DB and MiniLM embeddings, processing 1000+ financial documents.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">RAG Pipeline</span>
+                            <span class="tech-tag">LLM</span>
+                            <span class="tech-tag">FAISS</span>
+                            <span class="tech-tag">CTransformers</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-icon">💼</div>
+                        <div class="project-overlay"></div>
+                    </div>
+                    <div class="project-content">
+                        <h3>AI-Powered Talent Scout Hiring Assistant</h3>
+                        <p class="project-date">February 2025</p>
+                        <p class="project-description">
+                            Built an intelligent conversational hiring system using Streamlit and Gemini 1.5 Flash with multi-turn dialogue state management. Features dynamic technical Q&A generation and structured candidate evaluation pipeline.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Streamlit</span>
+                            <span class="tech-tag">Gemini API</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Conversational AI</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-icon">🚗</div>
+                        <div class="project-overlay"></div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Traffic Congestion Forecasting Using Graph Neural Networks</h3>
+                        <p class="project-date">2026 | NIT, UK (Accepted at IC2E3)</p>
+                        <p class="project-description">
+                            Peer-reviewed research on advanced GNN architectures for spatio-temporal traffic prediction incorporating external contextual information. Published methodology demonstrates significant RMSE improvement.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Graph Neural Networks</span>
+                            <span class="tech-tag">Deep Learning</span>
+                            <span class="tech-tag">Research Publication</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="section-container">
+            <div class="section-header">
+                <h2>Skills & Expertise</h2>
+                <div class="header-line"></div>
+            </div>
+            
+            <div class="skills-content">
+                <!-- Programming Skills -->
+                <div class="skills-category">
+                    <h3>Programming</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <span class="skill-name">Python</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">SQL</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ML & AI Skills -->
+                <div class="skills-category">
+                    <h3>Machine Learning & AI</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <span class="skill-name">Machine Learning</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 92%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Deep Learning</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 88%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">NLP & LLM</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Predictive Analysis</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Data & Tools -->
+                <div class="skills-category">
+                    <h3>Data & Tools</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <span class="skill-name">Data Science</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 93%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">AWS</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Visualization (Matplotlib, Seaborn)</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Skills Chart -->
+            <div class="chart-container">
+                <canvas id="skillsChart"></canvas>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="section-container">
+            <div class="section-header">
+                <h2>Education</h2>
+                <div class="header-line"></div>
+            </div>
+            <div class="education-grid">
+                <div class="education-card">
+                    <div class="education-icon">🎓</div>
+                    <h3>Master of Engineering in Data Science</h3>
+                    <p class="university">Army Institute of Technology, Pune</p>
+                    <p class="duration">Expected June 2026</p>
+                    <p class="gpa">GPA: 8.0/10 (Till 3rd Semester)</p>
+                </div>
+                <div class="education-card">
+                    <div class="education-icon">📚</div>
+                    <h3>Bachelor of Technology in Computer Science & Engineering (AI & ML)</h3>
+                    <p class="university">Khwaja Moinuddin Chishti Language University, Lucknow</p>
+                    <p class="duration">2020 - 2024</p>
+                    <p class="gpa">GPA: 8.2/10</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section class="certifications">
+        <div class="section-container">
+            <div class="section-header">
+                <h2>Certifications & Workshops</h2>
+                <div class="header-line"></div>
+            </div>
+            <div class="cert-grid">
+                <div class="cert-item">
+                    <span class="cert-badge">📜</span>
+                    <p>Python & ML for Financial Analysis</p>
+                </div>
+                <div class="cert-item">
+                    <span class="cert-badge">📜</span>
+                    <p>Internshala Programming With Python</p>
+                </div>
+                <div class="cert-item">
+                    <span class="cert-badge">📜</span>
+                    <p>Data Science and Analytics Internship</p>
+                </div>
+                <div class="cert-item">
+                    <span class="cert-badge">📜</span>
+                    <p>Summer Internship Certificate - LinuxWord Informatics</p>
+                </div>
+                <div class="cert-item">
+                    <span class="cert-badge">🏆</span>
+                    <p>AWS Workshop</p>
+                </div>
+                <div class="cert-item">
+                    <span class="cert-badge">🏆</span>
+                    <p>PowerBI and Tableau Workshop</p>
+                </div>
+                <div class="cert-item">
+                    <span class="cert-badge">🏆</span>
+                    <p>2 Days Workshop on Big Data Analytics</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="section-container">
+            <div class="section-header">
+                <h2>Get In Touch</h2>
+                <div class="header-line"></div>
+            </div>
+            <div class="contact-content">
+                <p class="contact-intro">I'm always interested in hearing about new projects and opportunities. Feel free to reach out!</p>
+                
+                <div class="contact-methods">
+                    <a href="mailto:mdashraf9723@gmail.com" class="contact-method">
+                        <div class="contact-icon">✉</div>
+                        <h4>Email</h4>
+                        <p>mdashraf9723@gmail.com</p>
+                    </a>
+                    <a href="tel:+919305905287" class="contact-method">
+                        <div class="contact-icon">📱</div>
+                        <h4>Phone</h4>
+                        <p>+91 9305905287</p>
+                    </a>
+                    <a href="https://github.com/ashraf9723" target="_blank" class="contact-method">
+                        <div class="contact-icon">🔗</div>
+                        <h4>GitHub</h4>
+                        <p>github.com/ashraf9723</p>
+                    </a>
+                    <a href="https://www.linkedin.com/in/md-ashraf-59367319a/" target="_blank" class="contact-method">
+                        <div class="contact-icon">💼</div>
+                        <h4>LinkedIn</h4>
+                        <p>MD Ashraf</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="section-container">
+            <p>&copy; 2026 MD Ashraf. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="https://github.com/ashraf9723" target="_blank">GitHub</a>
+                <a href="https://www.linkedin.com/in/md-ashraf-59367319a/" target="_blank">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
